@@ -1,9 +1,14 @@
 # SharpSamples
-Repository that contains several examples regarding Microsoft .NET and .NET Core framework
+Repository that contains several examples regarding Microsoft .NET and .NET Core framework.
 
 ## What do i find?
 
 The repository contains a series of .NET and .NET Core samples, under MIT license for use and consumption of any developer.
+New projects will be added periodically.
+
+## Repository structure
+
+The repository contains various projects including the solution and the README file.
 
 ## Contributing
 
