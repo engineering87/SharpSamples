@@ -1,0 +1,19 @@
+// (c) 2020 Francesco Del Re <francesco.delre.87@gmail.com>
+// This code is licensed under MIT license (see LICENSE.txt for details)
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package echo;
+
+service Echo {
+  rpc SendEcho (EchoRequest) returns (EchoReply);
+}
+
+message EchoRequest {
+  string message = 1;
+}
+
+message EchoReply {
+  string message = 1;
+}
